@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import TodoList from "./components/TodoList";
 
 TodoFeatures.propTypes = {};
@@ -21,7 +20,7 @@ function TodoFeatures(props) {
   ];
   return (
     <div>
-      Todo Features
+      Todo List
       <TodoList todoList={todoList} />
     </div>
   );
